@@ -1,0 +1,95 @@
+body {
+    background-color: #D3D3D3;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(ggg.jpg);
+    color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.lime {
+    color: #778899;
+    font-size: 22px;
+}
+
+.blue {
+    color: blue;
+    font-size: 22px;
+}
+
+.green {
+    color: green;
+    font-size: 22px;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    transform: scale(0.5);
+    transition: 2s transform;
+}
+
+.img_animation:hover{
+    transform: rotate(180deg) scale(0.3);
+
+}
+
+.info{
+    background-color: blue;
+    color: #FFFFFF;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    opacity: 0.7;
+    box-shadow: 5px 5px 30px blue;
+}
+
+.success{
+    background-color: green;
+    color: #FFFFFF;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    opacity: 0.7;
+    box-shadow: 5px 5px 30px green;
+}
+
+.fail{
+    background-color: red;
+    color: #FFFFFF;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    opacity: 0.7;
+    box-shadow: 5px 5px 30px red;
+}
+
+.messages{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.message:hover{
+    border: 5px solid #FFFFFF;
+    opacity: 1;
+}
